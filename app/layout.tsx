@@ -7,7 +7,7 @@ import { mapled } from "@/lib/mapled";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: { default: "Blog", template: "%s · Blog" },
+  title: { default: "Blog", template: "%s | Blog" },
   description: "Posts, authors and categories, edited in Mapled.",
 };
 

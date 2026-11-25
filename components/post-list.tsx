@@ -20,7 +20,7 @@ export function PostList({ posts }: { posts: MapledRecord<Post>[] }) {
           <li key={post.id} className="card">
             <p className="meta">
               {date}
-              {date && author ? " · " : null}
+              {date && author ? " • " : null}
               {author ? author.data.name : null}
             </p>
             <h2>

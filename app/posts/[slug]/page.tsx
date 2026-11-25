@@ -31,7 +31,7 @@ export default async function PostPage({ params }: Props) {
     <article>
       <p className="meta">
         {date}
-        {date && author ? " · " : null}
+        {date && author ? " • " : null}
         {author ? <Link href={`/authors/${author.data.slug}`}>{author.data.name}</Link> : null}
       </p>
       <h1>{post.data.title}</h1>
